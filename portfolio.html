@@ -1,107 +1,90 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en">
-  <head>
-    <!-- Required meta tags -->
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-
-    <!-- Bootstrap CSS -->
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" integrity="sha384-WskhaSGFgHYWDcbwN70/dfYBj47jz9qbsMId/iRN3ewGhXQFZCSftd1LZCfmhktB" crossorigin="anonymous">
-
-    <title>Bootstrap-Portfolio</title>
-  </head>
-  <style>
-      body {
-background-image: url(https://subtlepatterns.com/patterns/kindajean.png);
-  }
-
-  .row{
-      padding:60px;
-  }
-
-
-  
-  </style>
-
-  
- 
-  <header>
-        
-        <nav class="navbar navbar-expand-lg navbar-light bg-light">
-                
-            <div class="container">
-                <a class="navbar-brand text-"" bg-light" href="#"><strong>Steven Yoeung</strong></a>
-                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-                  <span class="navbar-toggler-icon"></span>
-                </button>
-                <div class="collapse navbar-collapse" id="navbarNav">
-                  <ul class="navbar-nav ml-auto">
-                    <li class="nav-item">
-                      <a class="nav-link" href="index.html">About Me <span class="sr-only">(current)</span></a>
-                    </li>
-                    <li class="nav-item">
-                      <a class="nav-link" href="portfolio.html">Portfolio</a>
-                    </li>
-                    <li class="nav-item">
-                      <a class="nav-link" href="contact.html">Contact</a>
-                    </li>
-                  </ul>
-                </div>
-            </div>
-            
-        </nav>
-    </header>
-    <body>
-        
-
-     <br><div class="container bg-white ">  
-
-      <br><h1> Portfolio</h1>
-         
-
-        
+<head>
+    <title>Bootstrap Portfolio</title>
+    <meta charset="UTF-8">
+    <meta name="author" content="Aaron Michael McNulty">
+    <meta name="viewport" content="user-scalable=no, initial-scale=1, maximum-scale=1, minimum-scale=1, width=device-width, height=device-height, target-densitydpi=device-dpi" />
+    <link rel="shortcut icon" type="image/x-icon" href="images/icon/favicon.ico">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/css/bootstrap.min.css" integrity="sha384-rwoIResjU2yc3z8GV/NPeZWAv56rSmLldC3R/AZzGRnGxQQKnKkoFVhFQhNUwEyJ" crossorigin="anonymous">
+    <link type="text/css" rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div id="content">
+        <header>
+            <section class="container-fluid">
                 <div class="row">
-                   
-                        <div class="col-md-3">
-                          <div class="thumbnail">
-                                <a href="https://placeholder.com"><img src="http://via.placeholder.com/200x200" style="width:100%" ></a>
-                        </div>
-                        </div>
-                        
-                                <div class="col-md-3">
-                                  <div class="thumbnail">
-                                        <a href="https://placeholder.com"><img src="http://via.placeholder.com/200x200" style="width:100%" ></a>
+                    <div class="col-md-1 col-sm-auto"></div>
+                    <div class="col-md-4 col-sm-12" id="myName">
+                        Steven Yoeung
+                    </div>
+                    <div class="col-md-1 col-sm-auto"></div>
+                    <nav class="col-md-6 col-sm-12">
+                        <div class="container">
+                            <div class="row">
+                                <div id="aboutButton" class="navButton col">
+                                    <a href="index.html">About</a>
                                 </div>
+                                <div id="portButton" class="navButton col">
+                                    <a href="portfolio.html">Portfolio</a>
                                 </div>
-                               
-                                        <div class="col-md-3">
-                                          <div class="thumbnail">
-                                                <a href="https://placeholder.com"><img src="http://via.placeholder.com/200x200" style="width:100%" ></a>
-                                        </div>
-                                        </div>
-                                       
-                                                <div class="col-md-3">
-                                                  <div class="thumbnail">
-                                                        <a href="https://placeholder.com"><img src="http://via.placeholder.com/200x200" style="width:100%" ></a>
-                                                </div>
-                                                </div>
-                    
-    </div>
-</body>
-
-
-<footer>
-     <!--Copyright-->
-    <div class="footer-copyright py-4 text-center bg-white">
-            © 2018 Copyright:
-            <a href="https://getbootstrap.com/docs/4.0/components/card/#header-and-footer"> getbootstrap.com </a>
+                                <div id="contactButton" class="navButton col">
+                                    <a href="contact.html">Contact</a>
+                                </div>
+                            </div>
+                        </div>
+                    </nav>
+                </div>
+            </section>
+        </header>
+        <div class="container" id="bodyContent">
+            <div class="col-md-8 col-xs-12">
+                <section id="mainContent">
+                    <h1>Portfolio</h1>
+                    <div class="picSection row">
+                        <div class="thumbnail col-lg-6 col-md-12 col-sm-6 col-xs-12">
+                            <img src="http://via.placeholder.com/200x200" alt="example1">
+                            <span class="label">Example </span>
+                        </div>
+                        <div class="thumbnail col-lg-6 col-md-12 col-sm-6 col-xs-12">
+                            <img src="http://via.placeholder.com/200x200"  alt="example2">
+                            <span class="label">Example </span>
+                        </div>
+                    </div>
+                    <div class="picSection row">
+                        <div class="thumbnail col-lg-6 col-md-12 col-sm-6 col-xs-12">
+                            <img src="http://via.placeholder.com/200x200"  alt="example3">
+                            <span class="label">Example </span>
+                        </div>
+                        <div class="thumbnail col-lg-6 col-md-12 col-sm-6 col-xs-12">
+                            <img src="http://via.placeholder.com/200x200"  alt="example4">
+                            <span class="label">Example </span>
+                        </div>
+                    </div>
+                    <div class="picSection row">
+                            <div class="thumbnail col-lg-6 col-md-12 col-sm-6 col-xs-12">
+                                <img src="http://via.placeholder.com/200x200"  alt="example5">
+                                <span class="label">Example </span>
+                            </div>
+                            <div class="thumbnail col-lg-6 col-md-12 col-sm-6 col-xs-12">
+                                <img src="http://via.placeholder.com/200x200" alt="example6">
+                                <span class="label">Example </span>
+                            </div>
+                        </div>
+                       
+                            </div>
+                        </div>
+                </section>
+            </div>
+           
         </div>
-        <!--/.Copyright-->
-    
+        <!-- This is a blank div that is given the same height as the footer. This makes the body long enough to add in a footer without it overlapping content in the body. -->
+        <div class="push"></div>
+    </div>
+    <footer>
+        <p id="copyright">
+            &copy; Copyright 2018 Syoeung
+        </p>
     </footer>
-    <!--/.Footer-->
-
-
+</body>
 </html>
-                    
-                    
